@@ -18,16 +18,8 @@ import {
 } from "lucide-react";
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
-
-import PROJECT_IMG_1 from "../assets/images/chat-app.png";
-import PROJECT_IMG_2 from "../assets/images/sys_2.png";
-import PROJECT_IMG_3 from "../assets/images/mysql-manager.png";
-import PROJECT_IMG_4 from "../assets/images/weather-app.png";
-import PROJECT_IMG_5 from "../assets/images/mysql-manager.png";
-import PROJECT_IMG_6 from "../assets/images/book.png"
-import PROJECT_IMG_7 from "../assets/images/pro.png";
-import PROJECT_IMG_8 from "../assets/images/portfolio.png";
-
+import PROJECT_IMG_1 from '../assets/images/pro.png'
+import PROJECT_IMG_2 from '../assets/images/portfolio.png'
 // ===================== TECH STACK =====================
 export const TECH_STACK = [
   "JavaScript",
@@ -91,7 +83,7 @@ export const PROJECTS = [
     title: "Property Finder ",
     description:
       "A Property finder web app where we can easily find new Property .",
-    image: PROJECT_IMG_7,
+    image: PROJECT_IMG_1,
     tags: ["Node.js  express.js , ejs , mongoDB"],
     liveUrl: "https://property-finder-rose.vercel.app/listings",
     githubUrl: "https://github.com/anandpatle330-web",
@@ -103,74 +95,26 @@ export const PROJECTS = [
     title: "Persnal Portfolio",
     description:
       "A personal portfolio built with React and Tailwind CSS.",
-    image: PROJECT_IMG_8,
+    image: PROJECT_IMG_2,
     tags: ["react js"],
      liveUrl: "#",
     githubUrl: "https://github.com/anandpatle330-web",
     featured: true,
     category: "Full Stack",
   },
-   {
-    id: 4,
-    title: "Weather App",
-    description:
-      "Developed a responsive weather app with city/postcode search, autocomplete functionality, and dynamic UI that adapts to weather conditions.",
-    image: PROJECT_IMG_4,
-    tags: ["HTML 5", "CSS","JavaScript","WeatherAPI"],
-    liveUrl: "",
-    githubUrl: "",
-    featured: false,
-    category: "Web App",
-  },
-  {
-    id: 5,
-    title: "Book store",
-    description:
-      "Developed a responsive Book-store app with  search, autocomplete functionality, and dynamic UI that adapts to weather conditions.",
-    image: PROJECT_IMG_6,
-    tags: ["react", "Node js","express js","mongodb"],
-    liveUrl: " https://github.com/anandpatle330-web",
-    githubUrl: "https://github.com/anandpatle330-web",
-    featured: true,
-    category: "Web App",
-  },
-   {id: 6,
-    title: "Real-Time Chat Application",
-    description:
-      "A Real-Time Chat Application like whatsApp ,Instagram with login Authentication and Live chat rooms.",
-    image: PROJECT_IMG_1,
-    tags: ["HTML 5", "CSS", "JavaScript","WebScoket","ExpressJs"],
-    liveUrl: "",
-    githubUrl: "",
-    featured: true,
-    category: "Full Stack",
-  },
-   {
-    id: 7,
-    title: "Symptom Checker",
-   
-    description:
-      "Build a custom web-based.Secure login with session handling ,Full CRUD operations, Database & table management.",
-    image: PROJECT_IMG_2,
-    tags: ["react ,Node ,express"],
-     liveUrl: "#",
-    githubUrl: "https://github.com/anandpatle330-web",
-    featured: false,
-    category: "Full Stack",
-  },
-   {
-    
-    id: 8,
-     title: " Manager ",
-    description:
-      "Build a custom web-based.Secure login with session handling ,Full CRUD operations, Database & table management.",
-    image: PROJECT_IMG_3,
-    tags: ["Django", "HTML 5", "CSS", "JavaScript","MySQL"],
-    // liveUrl: "#",
-    githubUrl: "",
-    featured: false,
-    category: "Full Stack",
-  }
+  //  {
+  //   id: 4,
+  //   title: "Weather App",
+  //   description:
+  //     "Developed a responsive weather app with city/postcode search, autocomplete functionality, and dynamic UI that adapts to weather conditions.",
+  //   image: PROJECT_IMG_2,
+  //   tags: ["HTML 5", "CSS","JavaScript","WeatherAPI"],
+  //   liveUrl: "",
+  //   githubUrl: "",
+  //   featured: false,
+  //   category: "Web App",
+  // },
+  
  
 ];
 
