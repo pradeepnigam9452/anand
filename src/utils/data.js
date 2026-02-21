@@ -54,9 +54,8 @@ export const STATS = [
 
 // ===================== CERTIFICATES =====================
 
-import CERT_1 from "../assets/Certificates/java.png";
-import CERT_2 from "../assets/Certificates/DSA.png";
-
+import CERT_1 from '../assets/JAVA.png';
+import CERT_2 from '../assets/DSA.png';
 
 // // …add more as needed!
 
